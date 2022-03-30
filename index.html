@@ -1,92 +1,252 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
 <wml>
-<card id="main" title="彩虹网址导航|彩虹云导航|WAP网址大全—上网从这里开始">
+<a href="file://e:\xyz\yun.wml">首页</a>|<a href="file://e:\xyz\yun1.wml">一导</a>|<a href="file://e:\xyz\yun2.wml">二导</a>|
+<a href="file://e:\xyz\yun3.wml">三导</a>|<a href="file://e:\xyz\yun4.wml">四导</a><br/>
+<a href="file://e:\xyz\yun5.wml">五导</a>|<a href="file://e:\xyz\yun6.wml">六导</a>|<a href="file://e:\xyz\yun7.wml">七导</a>|八导|<a href="mtt:bookmark">书签</a>
+
+<mttmore title="MRP修改必备软件下载"  src="icon_file.gif" checked="shrink">
+<p>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388819&id=35545&sid=-1-0-0-0-0">掌上e_mrp最新版</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388819&id=35543&sid=-1-0-0-0-0">RX4.4(带解包功能)</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388819&id=35544&sid=-1-0-0-0-0">编码转换器v1001</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388819&id=35526&sid=-1-0-0-0-0">易编辑2013版</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=35535&sid=-1-0-0-0-0">手机MRPER1.22(不死机)</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388819&id=35524&sid=-1-0-0-0-0">手机MRPER2.0</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388819&id=35540&sid=-1-0-0-0-0">压缩文件管理器(eZip)</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=35525&sid=-1-0-0-0-0">贝贝笔记本1.3</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=36877&sid=-1-0-0-0-0">冒泡开发实验系统</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=38109&sid=-1-0-0-0-0">小钱开发MPC虚拟机</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=35539&sid=-1-0-0-0-0">手机C语言1.5beta2</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=35541&sid=-1-0-0-0-0">虚拟机公共精简版</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=35542&sid=-1-0-0-0-0">虚拟机套件之图铃启动版</a><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=38567&sid=-1-0-0-0-0">小钱易UI_v1.0</a>
+</p><br/>
+<a href="http://mrp6688.52n.cn/download/book_view.aspx?siteid=303600&classid=388813&id=38654&sid=-1-0-0-0-0">Arm反汇编工具</a>
+</p>
+</mttmore>
+
+<mttmore title="关于MRP软件的修改历史"  src="icon_file.gif" checked="shrink">
+<p>
+不写那些具体的时间，因为不是很明朗的，只说说修改的进程。<br/>
+首先，修改文件介绍，修改默认名显示名，修改编号等外部显示层面上。<br/>
+后来，伴随修改器发展，开始可以解压MRP，于是开始替换里面文件。<br/>
+第一阶段：最先最简单的替换是替换mid文件，常见替换QQ的消息音msg.mid，而且这段时间是比较长的，没有多大的发展；<br/>
+第二阶段：一段时间后不知是哪个第一个吃的螃蟹，开始修改bmp图片，这使得那时候的修改变得漂亮，这个漂亮是指图片的美化以及个性化，于是QQ的logo，logotwo的修改替换盛行；<br/>
+第三阶段：内部其他程序文件的修改，主要为cfunction.ext，以及后来一些个别文件的start.mr还有mrp电子书解压出的文件修改，这部分的修改应该是我最先公开的，不过现在应该蛮多人会的，但是这部分确实最要自己的想象力和idea，很多人现在其实还是步上前人路的，不过这个确实推陈出新比较难的；<br/>
+第四个阶段：暂时定为第四个阶段吧，任意定义bmp图片大小，当然这个任意定义不一定能够手机上解析出来的，还有内存问题以及软件本身设置问题，就像一些人觉得为什么“Oo精品软件oO”和玻璃“Oo精品软件oO”以及和“炫动Oo精品软件oO”有部分图片规格不一致的原因，因为在软件本身修改过图片规格，对于这部分的修改网上是没有教程的。<br/>
+其实修改mrp在发展中，在创新中，可能到斯凯开源也还有人继续修改，MRP修改历史是不长的，是需要一代又一代的后继人的，也许不多久斯凯就开源了，我或许不再修改了，但是勉强作为一个前人，希望我的东西对后继人有所作用。<br/>
+转自：space
+</p>
+</mttmore>
+
+<mttmore title="空挂内部文件解析"  src="icon_file.gif" checked="shrink">
+<p>
+用资源管理器解压原版空挂后会看到45个文件，分别是4个启动文件、1个主文件、18张gif图片、1张png图片、16张bin图片、4个wml文件、1个mid铃声。<br/>
+四个启动文件分别是star.mr、shell.mr、mrc_loader.ext、mrc_loader.ext，这四个文件就是启动文件，我们一般不动它们，因为未涉及到空挂内容的修改，其中mrc_loader.ext有两个，据说内容不一样，但在空挂里是可以删除的。主文件是cfution.ext，它是最重要的，目前通过改cfution.ext可以改空挂的菜单文字、内部链接、皮肤颜色。那18张gif图片呢，最值得一提的是image_logo.gif，它就是启动图，最多人想改的，其他的gif图片呢，可以解压出来查看，你再和空挂对照就知道它们分别是哪里的了。那张png图片呢，也别动它了，没啥意思。那16张bin图片呢，是空挂的内部图片，主要是表情等，目前好像只有space的mrper能够查看，你用mrper解压空挂查看下就清楚了，这种图片其实也是可以修改的。<br/>
+那四个wml文件分别是mtt_start.wml、mtt_config.wml、error1.wml、error2.wml，其中mtt_start.wml是空挂里的首页文件；mtt_config.wml是空挂里的设置文件；而error1.wml、error2.wml是访问网页出错时显示的内容。最后是mid铃声，可以换成自己喜欢的，就不解释了。看完以上内容是否已经对空挂的内部文件有所了解了呢？接下来就是修改了……
+</p>
+</mttmore>
+
+<mttmore title="修改空挂之全过程"  src="icon_file.gif" checked="shrink">
+<p>
+1.手机修改空挂全过程<br/>
+必备软件：RX管理器(建议使用资源管理器4.3)、E_mrp、易编辑、压缩文件管理器、mrper121<br/>
+教程：<br/>
+先用RX管理器把空挂里的cfunction.ext解压出来，若解压失败，就使用E_mrp解压,然后用易编辑打开
+cfunction.ext (cfunction.ext在文件夹下) ，可以修改空挂内部文字、内部链接及空挂皮肤(详细教程有机会再续)，修改完成后，关闭文件，退出。再使用压缩文件管理器对cfunction.ext进行压缩，生成
+cfunction.ext.gz ，退出压缩文件管理器 。 再使用RX管理器把原cfunction.ext移走或删除，再把cfunction.ext.gz更名为cfunction.ext。然后把cfunction.ext移至space文件夹下，再使用mrper121替换cfunction.ext，同时还可替换图片、铃声及wml(详细教程有机会再续)，替换完成后打包即可，这样就完成了手机修改空挂的全过程，看懂了吧，其实改其他软件也可改差不多，自己慢慢琢磨吧…………<br/><br/>
+
+2.修改空挂之简单图铃<br/>
+用mrper121把空挂解压,msg.mid，image_logo.gif，…其中msg.mid就是消息铃声，image_logo.gif就是启动图，把它们替换就行了。<br/>
+mid铃声可以到易查搜索下载，越小越好，gif图片可用QQ截图制作，或使用photoshop制作，也可到文网(wap.3gwen.com)在线编辑。如果是jpg图片，要在电脑上用<图片格式转换器>把图片转换成gif格式图片,同时注意要是256色，转换器上有选项的。<br/><br/>
+
+3.修改空挂之菜单文字<br/>
+用易编辑打开cfunction.ext，然后菜单→编辑→查找→UCS2BE→输入里的文字，比如：登录中，查找到之后，菜单→编辑→替换→UCS2BE→输入想要改成的字，比如：想象中，然后会显示替换完成，确定即可。其他文字以此类推，重复操作即可，最后菜单文件关闭，退出易编辑。其他软件的文字也是这样改，多去尝试下就知道了，努力吧！<br/><br/>
+
+4.修改空挂之文件夹<br/>
+(1).去除QQ2010Download文件夹：用易编辑打开cfunction.ext，然后菜单→编辑→查找→UTF8→输入QQ2010Download，找到后，菜单→编辑→替换→16进制→输入28个0，确认，然后按7键查找下一个，按8键替换，重复查找替换，直到显示“查找数据未找到”为止。<br/>
+(2).把QQ2010文件夹改成QQ2011文件夹：<br/>
+用易编辑打开cfunction.ext，然后菜单→编辑→查找→UTF8→输入QQ2010，查找到之后，菜单→编辑→替换→UTF8→输入
+QQ2011，确认，然后按7键查找下一个，按8键替换，重复查找替换，直到显示“查找数据未找到”为止。<br/><br/>
+
+5.修改空挂之内部网址<br/>
+用易编辑打开cfunction.ext，然后菜单→编辑→查找→UTF8→输入想查找的网址，查找到之后，菜单→编辑→替换→UTF8→输入想替换的网址。内部网址获取方法：登录QQ，进入链接，存为书签，然后从书签里就可以看到网址了。如果知道网址，就菜单→编辑→位置→转到→输入网址位置就行了。注意：要替换的网址必须比原网址更短。<br/><br/>
+
+6.修改空挂之wml解析<br/>
+修改wml：可直接用易编辑打开要修改的wml，用UTF8编码查找替换即可，或者一行一行往下找，把想改的替换就行了，多余的就用16进制的0替换。
+制作wml：首先要用space的文档转码器(文本编码转换器)把wml转成GB2312编码，然后用墨水瓶的记事本打开，之后慢慢写吧。。。。
+</p>
+</mttmore>
 
 
-<img alt="彩虹网址导航" src="http://cccyun.cn/images/logo.png"/><br/>
+<mttmore title="修改空挂皮肤教程" src="icon_file.gif" checked="shrink">
+</p>
 
-<input type="text" format="*m" name="key" size="20" value=""/><br/>
-<anchor><go href="http://m.baidu.com/s" method="get" accept-charset="utf-8"><postfield name="word" value="$(key)"/></go>百度</anchor>|<anchor><go href="http://qweb.sinaapp.com/google/" method="get" accept-charset="utf-8"><postfield name="k" value="$(key)"/></go>谷歌</anchor>|<anchor><go href="http://m.cccyun.cc/?m=wodemo" method="get" accept-charset="utf-8"><postfield name="k" value="$(key)"/></go>磨内</anchor>|<anchor><go href="http://wap.sogou.com/web/searchList.jsp" method="get" accept-charset="utf-8"><postfield name="keyword" value="$(key)"/></go>搜狗</anchor>|<anchor><go href="http://m.cn.bing.com/search" method="get" accept-charset="utf-8"><postfield name="q" value="$(key)"/></go>必应</anchor><br/>
-音乐:<anchor><go href="http://wap.sogou.com/music/musicSearchResult.jsp" method="get" accept-charset="utf-8"><postfield name="keyword" value="$(key)"/></go>搜狗</anchor>|<anchor><go href="http://music.baidu.com/search" method="get" accept-charset="utf-8"><postfield name="key" value="$(key)"/></go>百度</anchor>|<anchor><go href="http://dds.sogua.com/Search/Default.aspx" method="get" accept-charset="utf-8"><postfield name="keyword" value="$(key)"/></go>搜刮</anchor>|<anchor><go href="http://movie.baidu.com/v?
-&amp;ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=0&amp;fbl=800" method="get" accept-charset="utf-8"><postfield name="word" value="$(key)"/></go>视频</anchor><br/>
-小说:<anchor><go href="http://book.easou.com/s.m" method="get" accept-charset="utf-8"><postfield name="q" value="$(key)"/></go>宜搜</anchor>|<anchor><go href="http://wap.sogou.com/book/searchList.jsp" method="get" accept-charset="utf-8"><postfield name="keyword" value="$(key)"/></go>搜狗</anchor>|<anchor><go href="http://duokoo.baidu.com/novel/" method="get" accept-charset="utf-8"><postfield name="word" value="$(key)"/></go>百度</anchor>|<anchor><go href="http://book.yicha.cn/xnovel/sch.do" method="get" accept-charset="utf-8"><postfield name="key" value="$(key)"/></go>易查</anchor><br/>
-词典:<anchor><go href="http://dict.youdao.com/m/search" method="get" accept-charset="utf-8"><postfield name="q" value="$(key)"/></go>有道</anchor>|<anchor><go href="http://3g.dict.cn/s.php" method="get" accept-charset="utf-8"><postfield name="q" value="$(key)"/></go>海词</anchor>|<anchor><go href="http://www.iciba.com/search" method="get" accept-charset="utf-8"><postfield name="s" value="$(key)"/></go>金山</anchor>|<anchor><go href="https://translate.google.cn/m?hl=zh-CN&amp;sl=auto&amp;tl=zh-CN&amp;ie=UTF-8&amp;prev=_m" method="get" accept-charset="utf-8"><postfield name="q" value="$(key)"/></go>谷歌</anchor>
-<br/>
-<br/>
+首先，用资管、mrper或者E_mrp解压空挂，然后用eHex 1.2，打开temp文件夹的cfuntion.ext，点菜单→编辑→位置→转到→输入310305→确定，好了，到这里停一下，你会看到1C 66 97 00 D2 F1 FC 00 5F 51 75 00 F4 9F BE 00 5D 5D 5D 00  …………
+<br/>后面还有很多，在这里，我们把1C 66 97 00 D2 F1 FC 00 5F 51 75 00 F4 9F BE 00 5D 5D 5D 00  叫做一个大组，把1C 66 97 叫做一个小组（它只是空挂皮肤颜色中很小的一部分）， 00 是起分隔作用，整个空挂皮肤有66大组，也就是说有66部分的颜色，所以要慢慢改。
+<br/>在这里我再给你解释一下：1C 66 97 这是室内模式的颜色，D2 F1 FC是户外模式的颜色，5F 51 75 是夜间模式的颜色，F4 9F BE是粉红模式的颜色，5D 5D 5D是酷黑模式的颜色。
+看懂了就可以开始改了，比如把1C 66 97 替换成 00FF00，那么室内模式中的蓝色就变成绿色了，对了，1C 66 97 和 00FF00  是16进制颜色代码，这个可以查，可以使用管理器查，打开电子书你就知道了，或者用掌阅也行，在下面我也提供了一些16进制颜色代码，也基本上够用了。
+<br/><br/>下面给大家提供1～66大组颜色代码对应部位，及所在位置，310305+(大组数-1)x20=该大组所在位置。
+<br/>一、浏览器界面和大框架颜色
+二、QQ界面最上端
+三、“菜单”对上的那条细线颜色
+五、登录界面字体颜色(如“记住密码”)
+六、QQ背景颜色
+七、好友分组下划线
+九、QQ界面光标
+十一、宫格界面光标
+十二、菜单内填充颜色
+十三、菜单框架线颜色
+十四、菜单内字体颜色
+十五、菜单内光标所在字体颜色
+十六、无效选项字体颜色(如没有经过复制，“粘贴”的颜色)
+十八、输入框填充颜色
+二十、二十一，光标所在框(输入框、选择框)框架线颜色(双重)
+二十三、“输入网址”和“文字搜索”的字体颜色
+二十四、WML标题颜色
+二十五、勾选框架(登录界面处，如“记住密码”前那个)(还有那个勾得颜色)
+二十六、勾选框内填充颜色
+二十九、帐号输入框最右端那个正方块(可以选择历史号码那)
+三十一、如二十九所说的那个正方块中的小三角形
+三十二～三十四、点击帐号输入框会出现历史号码选择(会滑下一个小屏幕)三十二为该处光标颜色，三十三为该处字体颜色，三十四为该小屏幕填充颜色(汗一个…)
+三十五、表情框架线颜色
+三十六～三十九(注意哦，有时为了好表达不按顺序哦)＞选择表情那里，当光标指到某个表情时，三十七为该光标的颜色，看表情说明(如光标指向微笑那个表情时，会有“/微笑”的表情说明，三十九为“微笑”字体颜色，三十六为该框架线颜色，38为该长方块填充颜色)
+四十、登录滑条(显示“登录中”那里，四十为固定的长的那条，短的＞后面续贴有)
+四十一、聊天屏中，聊天内容字体颜色
+四十二、聊天屏填充颜色
+聊天屏中，自己昵称颜色为四十三，对方的为四十四
+四十五、聊天屏和聊天记录中光标的颜色
+四十六、聊天界面，聊天内容输入框外的填充颜色
+四十七、聊天界面，光标指向“添加表情”“常用语”等，光标的颜色
+四十九、“添加表情”“聊天记录”“常用语”，这些字的颜色
+浏览器最下端，“连接网络…”刚开始的颜色是五十三，后来以五十一的颜色代替五十三，五十二不知道，可能是“连接网络…”字的颜色
+五十七、好友分组，扣扣好友呢称，扣群名等字体颜色
+五十八、光标所指好友，扣群，好友名和扣群名在光标中显示的颜色
+侧滑条，短的为五十九，长的为六十
+六十一、输入框的框架线颜色
+六十二、提示框填充颜色(如“！确定退出程序？”那版块)
+登录界面的“更多设置”，六十三为该长方块框架线颜色，六十四为该长方块填充颜色，六十四也为上面所提到过的登录滑块，就是从左往右滑那个(登录中)
+六十六、“更多设置”这几个字的颜色，还有光标指到‘帐号输入框’时，框内数字的颜色
+<br/><br/>
+</p>
+</mttmore>
 
-<a href='https://www.aliyun.com/activity?userCode=1cyrqim7'>阿里云服务器一折特惠86元/年</a><br/><a href='https://www.cccyun.net/'>彩虹云主机-免备案CDN,高防主机</a><br/><a href='https://host.cccyun.cn/'>彩虹互联-200G电信高防服务器</a><br/><a href='http://blog.cccyun.cn/'>缤纷彩虹天地－彩虹的博客</a><br/>
-<br/>
-
-【网页浏览】<br/>
-
-转码：<input type="text" format="*m" name="url" size="15" value=""/><br/>
-<anchor><go href="http://gate.baidu.com/tc?bd_page_type=0" method="get" accept-charset="utf-8"><postfield name="src" value="$(url)"/></go>百度转码</anchor>.<anchor><go href="http://www.google.com.hk/gwt/x" method="get" accept-charset="utf-8"><postfield name="u" value="$(url)"/></go>谷歌转码</anchor>.<anchor><go href="http://wap.sogou.com/transcoding/sweb/detail.jsp?g_ut=1" method="get" accept-charset="utf-8"><postfield name="url" value="$(url)"/></go>搜搜转码</anchor><br/>
-<br/>
-
-【辅助功能】<br/>
-
-<!--font color="FF0000">彩虹云浏览器导航：</a><br/>
-<a href="http://www.cccyun.cn/web/03/xapp1.html">导①</a><a href="http://www.cccyun.cn/web/03/xapp2.html">导②</a><a href="http://www.cccyun.cn/web/03/xapp3.html">导③</a><a href="http://www.cccyun.cn/web/03/xapp4.html">导④</a><a href="http://www.cccyun.cn/web/03/xapp5.html">导⑤</a></div-->
-<a href="http://tool.cccyun.cc/zztool/viewhtml/viewhtml.php">源码查看</a>.<a href="http://dwz.wailian.work/">网址缩短</a>.<a href="http://tool.cccyun.cc/dnspod/">DNSPOD</a><br/>
-<a href="https://linbai.leyuz.com/">网盘搜索</a>.<a href="http://hu60.cn/q.php/tools.coder.html">编码转换</a>.<a href="http://www.cccyun.cc/tool/tv/">网络电视</a><br/>
-<a href="http://pan.cccyun.cc/">彩虹网盘</a>.<a href="http://www.musictool.top/">音乐搜索</a>.<a href="http://tool.cccyun.cc/zztool/decode.php">编码解码</a><br/>
-<a href="http://ftp.cccyun.cc/fast/">FTP上传</a>.<a href="http://url.cccyun.cc/">域名转发</a>.<a href="http://ftp.cccyun.cc/">WAPFTP</a>
-<br/>
-【其它工具】<br/>
-
-柯林辅助：<select name="function" class="txt"><option onpick="http://mrpyx.cn/DIYTools/csgj/ubbcs.aspx">UBB在线测试</option><option onpick="http://sign.cccyun.cc/kelink/">柯林刷帖顶贴</option><option onpick="http://sign.cccyun.cc/kelink/qdnew/">柯林自动签到</option><option onpick="http://sign.cccyun.cc/kelink/sk.php">斯凯自动领币</option><option onpick="http://sign.cccyun.cc/kelink/klsofa/">抢沙发助手</option><option onpick="http://sign.cccyun.cc/kelink/kelinksid/">提取柯林SID</option></select><br/>
-自动签到：<select name="function" class="txt"><option onpick="http://www.tbsign.cc/">贴吧云签系统</option><option onpick="http://sign.cccyun.cc/sign/discuz/">Discuz自动签到</option><option onpick="http://sign.cccyun.cc/sign/discuzdk/">Discuz自动打卡</option><option onpick="http://sign.cccyun.cc/sign/discuztask/">Discuz任务助手</option><option onpick="http://sign.cccyun.cc/sign/discuzol/">Discuz挂在线时长</option><option onpick="http://sign.cccyun.cc/sign/pwsign/">phpwind自动签到</option><option onpick="http://sign.cccyun.cc/sign/xiami/">虾米音乐自动签到</option><option onpick="http://sign.cccyun.cc/sign/ucsign/">UC论坛自动签到</option><option onpick="http://sign.cccyun.cc/sign/3gwen/">文网自动签到</option><option onpick="http://sign.cccyun.cc/sign/52pojie/">吾爱破解论坛签到</option><option onpick="http://sign.cccyun.cc/sign/fuliba/">福利吧论坛签到</option><option onpick="http://sign.cccyun.cc/sign/pptv/">PPTV签到助手</option><option onpick="http://sign.cccyun.cc/sign/post/">万能签到工具</option></select><br/>
-
-<!--div class="tt" id='g'>
-【实时热点】<br/>
-
-<iframe src="https://so.ctool.cc/?a=code&amp;type=top" frameborder="0" scrolling="no" width="100%" height="300"></iframe>
-</div-->
-
-
-
-【固链合作】<br/>
-<b><a href="http://cccyun.cn/read.php?kid=305" target="_blank">彩虹</a>.<a href="http://cccyun.cn/read.php?kid=201" target="_blank">青导</a>.<a href="http://cccyun.cn/read.php?kid=11" target="_blank">冰封</a>.<a href="http://cccyun.cn/read.php?kid=644" target="_blank">搜房</a>.<a href="http://cccyun.cn/read.php?kid=59" target="_blank">幻龙</a><br/><a href="http://cccyun.cn/read.php?kid=196" target="_blank">钥匙</a>.<a href="http://cccyun.cn/read.php?kid=898" target="_blank">飞讯</a>.<a href="http://cccyun.cn/read.php?kid=2" target="_blank">工具</a>.<a href="http://cccyun.cn/read.php?kid=182" target="_blank">Ｅ界</a>.<a href="http://cccyun.cn/read.php?kid=696" target="_blank">印象</a><br/><a href="http://cccyun.cn/read.php?kid=1387" target="_blank">WY分享</a>.<a href="http://cccyun.cn/read.php?kid=341" target="_blank">零零</a>.<a href="http://cccyun.cn/read.php?kid=100" target="_blank">虎绿</a>.<a href="http://cccyun.cn/read.php?kid=215" target="_blank">梦想</a>.<a href="http://cccyun.cn/read.php?kid=438" target="_blank">Tune</a><br/></b><br/>
-
-【热站聚焦】<br/>
-<a href="http://cccyun.cn/read.php?kid=216" target="_blank">黑锋</a>.<a href="http://cccyun.cn/read.php?kid=1092" target="_blank">知了</a>.<a href="http://cccyun.cn/read.php?kid=1105" target="_blank">爱享</a>.<a href="http://cccyun.cn/read.php?kid=1300" target="_blank">动云</a>.<a href="http://cccyun.cn/read.php?kid=1479" target="_blank">白蝴</a><br/><a href="http://cccyun.cn/read.php?kid=1104" target="_blank">一起</a>.<a href="http://cccyun.cn/read.php?kid=896" target="_blank">小希</a>.<a href="http://cccyun.cn/read.php?kid=305" target="_blank">彩虹</a>.<a href="http://cccyun.cn/read.php?kid=1493" target="_blank">三灵</a>.<a href="http://cccyun.cn/read.php?kid=1543" target="_blank">流浪</a><br/>
- 
-
-【热门分类】<br/>
-
-<a href="http://cccyun.cn/system/linkindex.php?id=13">工具</a>|<m><a href="http://cccyun.cn/read.php?kid=1338" target="_blank">云图</a>.<a href="http://cccyun.cn/read.php?kid=1295" target="_blank">爱吧</a>.<a href="http://cccyun.cn/read.php?kid=787" target="_blank">木偶</a>.<a href="http://cccyun.cn/read.php?kid=1446" target="_blank">92</a></m><br/>
-
-<a href="http://cccyun.cn/system/linkindex.php?id=16">网盘</a>|<m><a href="http://cccyun.cn/read.php?kid=173" target="_blank">流星</a>.<a href="http://cccyun.cn/read.php?kid=62" target="_blank">无心</a>.<a href="http://cccyun.cn/read.php?kid=348" target="_blank">霖霖</a>.<a href="http://cccyun.cn/read.php?kid=563" target="_blank">乐呀</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=18">新闻</a>|<m><a href="http://i.ifeng.com/news/newsi">凤凰</a>.<a href="http://wap.huanqiu.com/">环球</a>.<a href="http://i.m.cctv.com/">央视</a>.<a href="http://m.people.cn/4g/">人民</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=23">音乐</a>|<m><a href="http://3g.kugou.com/">酷狗</a>.<a href="http://wap.ttpod.com/music/index/">动听</a>.<a href="http://music.wap.soso.com/">搜搜</a>.<a href="http://mp3.easou.com/">宜搜</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=6">社区</a>|<m><a href="http://cccyun.cn/read.php?kid=1105" target="_blank">爱享</a>.<a href="http://cccyun.cn/read.php?kid=1479" target="_blank">白蝴</a>.<a href="http://cccyun.cn/read.php?kid=1291" target="_blank">明乐</a>.<a href="http://cccyun.cn/read.php?kid=1119" target="_blank">爱享</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=7">软游</a>|<m><a href="http://cccyun.cn/read.php?kid=1104" target="_blank">一起</a>.<a href="http://cccyun.cn/read.php?kid=949" target="_blank">爱玩</a>.<a href="http://cccyun.cn/read.php?kid=1134" target="_blank">乐游</a>.<a href="http://cccyun.cn/read.php?kid=188" target="_blank">绝客</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=12">建站</a>|<m><a href="http://cccyun.cn/read.php?kid=1364" target="_blank">渣渣</a>.<a href="http://cccyun.cn/read.php?kid=1368" target="_blank">源码</a>.<a href="http://cccyun.cn/read.php?kid=1133" target="_blank">莎儿</a>.<a href="http://cccyun.cn/read.php?kid=1340" target="_blank">主机</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=11">网址</a>|<m><a href="http://cccyun.cn/read.php?kid=216" target="_blank">黑锋</a>.<a href="http://cccyun.cn/read.php?kid=1092" target="_blank">知了</a>.<a href="http://cccyun.cn/read.php?kid=1478" target="_blank">玖玖</a>.<a href="http://cccyun.cn/read.php?kid=895" target="_blank">姬凌</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=9">文学</a>|<m><a href="http://cccyun.cn/read.php?kid=1352" target="_blank">活动</a>.<a href="http://cccyun.cn/read.php?kid=962" target="_blank">鬼王</a>.<a href="http://cccyun.cn/read.php?kid=576" target="_blank">优睿</a>.<a href="http://cccyun.cn/read.php?kid=868" target="_blank">乐呵</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=10">博客</a>|<m><a href="http://cccyun.cn/read.php?kid=1300" target="_blank">动云</a>.<a href="http://cccyun.cn/read.php?kid=896" target="_blank">小希</a>.<a href="http://cccyun.cn/read.php?kid=305" target="_blank">彩虹</a>.<a href="http://cccyun.cn/read.php?kid=1476" target="_blank">奇乐</a></m><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=17">其他</a>|<m><a href="http://cccyun.cn/read.php?kid=1322" target="_blank">奇梦</a>.<a href="http://cccyun.cn/read.php?kid=1267" target="_blank">钦州</a>.<a href="http://cccyun.cn/read.php?kid=1013" target="_blank">似听</a>.<a href="http://cccyun.cn/read.php?kid=1189" target="_blank">沐月</a></m><br/>
-
-
-【推荐分类】<br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=18">新闻</a>.<a href="http://cccyun.cn/system/linkindex.php?id=19">科技</a>.<a href="http://cccyun.cn/system/linkindex.php?id=20">体育</a>.<a href="http://cccyun.cn/system/linkindex.php?id=21">财经</a>.<a href="http://cccyun.cn/system/linkindex.php?id=22">军事</a><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=23">影音</a>.<a href="http://cccyun.cn/system/linkindex.php?id=24">房产</a>.<a href="http://cccyun.cn/system/linkindex.php?id=25">汽车</a>.<a href="http://cccyun.cn/system/linkindex.php?id=26">招聘</a>.<a href="http://cccyun.cn/system/linkindex.php?id=27">学习</a><br/>
-<a href="http://cccyun.cn/system/linkindex.php?id=28">旅游</a>.<a href="http://cccyun.cn/system/linkindex.php?id=29">生活</a>.<a href="http://cccyun.cn/system/linkindex.php?id=30">娱乐</a>.<a href="http://cccyun.cn/system/linkindex.php?id=31">女性</a>.<a href="http://cccyun.cn/system/linkindex.php?id=32">星座</a><br/>
+<mttmore title="玩机技巧及其他"  src="icon_file.gif" checked="shrink">
+<p>
+<br/>1.QQ难登的时候可以先浏览网页，再登Q，有一定的效果
+<br/>2.浏览器网速慢了，卡了，可以尝试清除缓存，删除Cache文件夹
+<br/>3.手机黑屏、白屏、死机了，可以尝试删除那些没用的文件夹；文件冲突了，可以新建mythroad文件夹
+<br/>4.上网省流量∶可以到设置里把查看图片、预读这些功能关闭
+<br/>5.QQ昵称竖起来∶在文字前面加上 & # 10 ； 就行了
+<br/>6.QQ昵称变空白∶用空挂修改网名时只输入空格就行了
+<br/>7.加自己为好友∶用电脑上的QQ2011查找好友，输入自己的QQ号，就可加自己为好友了
+<br/>8.批量恢复好友:用电脑上的QQ2011，菜单→我的QQ中心，里面还可以设置在线对其隐身，隐身对其可见呢
+<br/>9.查看QQ申请日期∶电脑上，QQ秀主页我的QQ秀修改设定，然后你就知道了
+<br/>10.把QQ号变成五位靓号，在电脑上，点头象，再添加辅助帐号，也就是邮箱，把邮箱名改成五位靓号就行了
+<br/>11.手机修改代理网速飞快。<br/>一、代理∶010.038.138.163<br/>端口∶54832<br/>二、代理∶010.125.079.127<br/>端口∶2992<br/>三、代理∶010.210.231.213<br/>端口∶9201<br/>四、代理∶211.136.015.009<br/>端口∶80<br/>12.把mythroad>QQ2011>Q号目录下的后赘为sn、fd的文件加密，可提升登Q网速。<br/><br/>插件技术∶<br/>1.截图插件:<br/>把主文件改名为aaaa.ext，再把截图插件改名为cun….ext打包即可。<br/>2.后台插件∶<br/>把主文件改名为game.ext，再把后台插件改名为cun….ext打包即可。<br/>3.特殊符号∶<br/>把插件改名为“Q号.sc”放在mythroad目录下的你的Q号的目录里就行。<br/><br/>1.修改空挂共存版：<br/>
 
 
-【生活助手】<br/>
-<a href="http://mobile.weather.com.cn/">天气</a>.<a href="http://fanyi.baidu.com/">翻译</a>.<a href="http://wapmap.baidu.com/">地图</a>.<a href="http://tools.iask.cn/iask/tools/clwg_index.php">违章</a>.<a href="http://t.qunar.com/index.jsp?bd_source=&amp;v=2">火车</a><br/><a href="http://dp.sina.cn/dpool/astro/jm/">解梦</a>.<a href="http://lady.3g.net.cn/astro/constellation3g.php?sid=&amp;wid=&amp;waped=2&amp;gaid=">星座</a>.<a href="http://m.qunar.com/index.jsp?bd_source=&amp;v=2">机票</a>.<a href="http://wap.8684.cn/bus.php">公交</a>.<a href="http://dp.sina.cn/dpool/astro/hdjr/?vt=3">黄历</a><br/><a href="http://wap.kuaidi100.com/">快递</a>.<a href="http://wap.ip138.com/post.html">邮编</a>.<a href="http://wap.ip138.com/sim.html">归属</a>.<a href="http://m.hao123.com/n/v/dianhua?z=100000">电话</a>.<a href="http://wap.ip138.com/id.html">身份</a><br/>
+↓↓↓↓↓↓↓
+第一种是用比较简单的方法修改的（这是以修改q浏为例）
+首先解压里面的主文件cfuntion.ext，用ehex的gb2312搜config.dat（就是q浏的设置，好像是这个）搜到后替换成别的字母，如把c改为d即可，如果不行就进入下一个教程咯《比较麻烦哈》
+二、首先解压出cfuntion.ext,用ehex搜索gb2312的qqbrowser,
+待续......
+然后用相同字数的字母选择的gb2312方式替换《例如用qqllqzzcl替换qqbrowser》注意数字不能多只能少，多就不能启动，少的可以用00代替，这里只要替换qqbrowser\res\cookie.dat和browser\res\config.dat这里的qqbrowser两个就可以了，教程结束。
+细节我就不写了（例如怎样解压，用ehex…）
+</p>
+</mttmore>
 
+<mttmore title="入门必看"  src="icon_file.gif" checked="shrink">
+<p>
+一、如何替换内置QQ
+<br/>1.用资源管理器找到内置QQ，按确定→编辑→mrp编辑，记下显示名、内部名、序列号、APPID、版本ID
+<br/>2.再把要替换成内置QQ的软件的这些信息改成和内置QQ一样的数值，然后保存即可，再把软件重命名为qq2008.mrp就行了。
+<br/>二、如何正确解压软件
+<br/>拿我的空挂来说，是解压xyz.mrp，有四种方法∶1.用资源管理器解压 2.用mrper解压 3.用E_mrp解压 4.用资管解包，然后加后缀.gz，再用
+压缩文件管理器解压，第四种方法是一定行的
+<br/>三、如何正确修改菜单文字
+<br/>先把eHex1.2设置好，按菜单→设置→文本→UCS2BE，然后再用编码查找，改完后，最好按菜单→编辑→位置→开头，再继续查找就能找到了，还有改的字不能超过原字数，多余的用十六进制的0替换。
+</p>
+</mttmore>
 
-【<a href='./pbmod.php?id=5'>收录</a>.<a href="http://cccyun.cn/system/lyblist.php">留言</a>.<a href='/system/sendmsg.php'>报错</a>.<a href='./pbmod.php?id=3'>合作</a>.<a href='./pbmod.php?id=4'>关于</a>】<br/>
-
-
-本站域名:<a href="/">cccyun.cn</a>[<a href="ext:add_favorite">加书签</a>]<br/>
-2022-03-30 16:58:13 (三)
-<br/><a href="http://cccyun.cn/style.php">换肤</a>:<a href="/?v=1">简版</a>|<a href="/?v=2">彩版</a>|<a href="/?v=3">触屏</a>|<a href="/?v=5">电脑</a><br/>
-<a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">鄂ICP备15003371号-3</a><br/>
-
-<a href="http://www.51.la/?16675430" target="_blank"><img src="http://img.users.51.la/16675430.asp" style="border:none" /></a>
-<br/>
+<mttmore title="掌阅,ttyy皮肤制作教程"  src="icon_file.gif" checked="shrink">
+<p>
+本文由喜少原创！<br/>
+1 基本常识<br/>
+a.听听皮肤<br/>
+1.9版听听皮肤存放处：
+SD卡:/My Music/skin<br/>
+2.0版听听皮肤存放处：
+SD卡:/TTYY/skin<br/>
+1.9版听听皮肤包含文件：
+以皮肤命名的.tsf文件，大小大约为100K左右<br/>
+2.0版听听皮肤包含文件：
+以皮肤命名的.tsf/.rsf皮肤索引文件（72B）和一个以皮肤命名的文件夹，里面有各种配置文件。<br/>
+music_bg.bmp/.jpg/.gif/.png
+音乐背景图<br/>
+read_bg.bmp/.jpg/.gif/.png
+阅读背景图<br/>
+titlebar.bmp/.jpg/.gif/.png
+标题栏UI<br/>
+toolbar.bmp/.jpg/.gif/.png
+工具栏UI<br/>
+music_playstop.bmp/.jpg/.gif/.png
+播放/暂停图标<br/>
+music_playstatus.bmp/.jpg/.gif/.png
+上一首/下一首图标<br/>
+play_number.bmp/.jpg/.gif/.png
+播放时间数字图片<br/>
+opttyy.col
+听听音阅皮肤UI配置文件（108B）<br/>
+opttyy.area
+听听音阅播放界面透明度文件（8B）<br/>
+[注意]<br/>
+1 皮肤能否显示于听听皮肤列表中，与皮肤索引文件内的皮肤名称有关，与皮肤索引文件本身无关。<br/>
+2 bmp图片必须加密，如果能做到不加密也能让皮肤效果更好的可忽略（可参考伍夫的皮肤科技幻想S），jpg和png图片必须不是flash图片（即仅安卓或PC支持显示的图片），gif图片请勿使用带脚本的图片（即双击、倒计时的图片）<br/>
+3 听听1.9版皮肤必须是bmp加密图，听听1.9皮肤有100多K是因为皮肤制作工具不经过压缩直接合并配置文件。<br/>
+b.掌阅皮肤<br/>
+掌阅皮肤存放目录：
+SD卡:/aRead/skin<br/>
+掌阅皮肤包含文件：<br/>
+opRead.col
+掌阅皮肤配置文件（72B）<br/>
+read_bg.bmp/.jpg/.gif/.png
+掌阅背景图<br/>
+titlebar.bmp/.jpg/.gif/.png
+标题栏UI<br/>
+toolbar.bmp/.jpg/.gif/.png
+工具栏UI<br/>
+[注意略]<br/><br/>
+2 皮肤制作配置文件<br/>
+a.皮肤索引文件的配置<br/>
+0-2 TSF 皮肤文件标识（GB2312码,不可更改）<br/>
+3-5 MTK/SPR 手机支持芯片（GB2312码,不要乱改）<br/>
+7-30 皮肤名称（UCS2BE码）<br/>
+40-60 作者（UCS2BE码）<br/>
+60-72 备用<br/>
+在听听皮肤opttyy.col中的白天模式颜色偏移如下：<br/>
+0~2 清屏颜色（无选项部分）<br/>
+3~5 列表标题文字色<br/>
+6~8 阅读背景色<br/>
+9~11 阅读文字色（前景色）<br/>
+12~14 列表背景色<br/>
+15~17 列表文字色<br/>
+18~20 无效果（掌阅opread.col中为列表小字色）<br/>
+21~23 列表选择项背景色<br/>
+24~26 列表选择项文字色<br/>
+27~29 列表选择项小字色<br/>
+30~32 播放界面标题栏下的分割线色<br/>
+33~35 歌词高行部分颜色<br/>
+36~38 歌词普通部分颜色<br/>
+39~41 时间和列表、菜单按键色<br/>
+42~44 播放进度条颜色<br/>
+45~47 播放界面滚动标题颜色<br/>
+夜间模式就是白天模式偏移数字+54。<br/>
+掌阅opread.col颜色偏移和听听的是一样的，不过opread.col中没有控制播放界面的颜色偏移，夜间模式为白天模式颜色偏移数字+36。
+<br/>----------
+</p>
+</mttmore>
+<a href="file://e:\xyz\yun9.wml">下一页</a>
 </card>
 </wml>
